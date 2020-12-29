@@ -1,0 +1,12 @@
+C:\dev\sepe_net\variables\variables\bin\Debug\netcoreapp3.1\variables.exe
+C:\dev\sepe_net\variables\variables\bin\Debug\netcoreapp3.1\variables.deps.json
+C:\dev\sepe_net\variables\variables\bin\Debug\netcoreapp3.1\variables.runtimeconfig.json
+C:\dev\sepe_net\variables\variables\bin\Debug\netcoreapp3.1\variables.runtimeconfig.dev.json
+C:\dev\sepe_net\variables\variables\bin\Debug\netcoreapp3.1\variables.dll
+C:\dev\sepe_net\variables\variables\bin\Debug\netcoreapp3.1\variables.pdb
+C:\dev\sepe_net\variables\variables\obj\Debug\netcoreapp3.1\variables.AssemblyInfoInputs.cache
+C:\dev\sepe_net\variables\variables\obj\Debug\netcoreapp3.1\variables.AssemblyInfo.vb
+C:\dev\sepe_net\variables\variables\obj\Debug\netcoreapp3.1\variables.vbproj.CoreCompileInputs.cache
+C:\dev\sepe_net\variables\variables\obj\Debug\netcoreapp3.1\variables.dll
+C:\dev\sepe_net\variables\variables\obj\Debug\netcoreapp3.1\variables.pdb
+C:\dev\sepe_net\variables\variables\obj\Debug\netcoreapp3.1\variables.genruntimeconfig.cache

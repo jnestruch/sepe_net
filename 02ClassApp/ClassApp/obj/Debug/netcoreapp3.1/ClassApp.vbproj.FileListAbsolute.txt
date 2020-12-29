@@ -1,0 +1,13 @@
+C:\dev\sepe_net\ClassApp\ClassApp\bin\Debug\netcoreapp3.1\ClassApp.exe
+C:\dev\sepe_net\ClassApp\ClassApp\bin\Debug\netcoreapp3.1\ClassApp.deps.json
+C:\dev\sepe_net\ClassApp\ClassApp\bin\Debug\netcoreapp3.1\ClassApp.runtimeconfig.json
+C:\dev\sepe_net\ClassApp\ClassApp\bin\Debug\netcoreapp3.1\ClassApp.runtimeconfig.dev.json
+C:\dev\sepe_net\ClassApp\ClassApp\bin\Debug\netcoreapp3.1\ClassApp.dll
+C:\dev\sepe_net\ClassApp\ClassApp\bin\Debug\netcoreapp3.1\ClassApp.pdb
+C:\dev\sepe_net\ClassApp\ClassApp\obj\Debug\netcoreapp3.1\ClassApp.vbprojAssemblyReference.cache
+C:\dev\sepe_net\ClassApp\ClassApp\obj\Debug\netcoreapp3.1\ClassApp.AssemblyInfoInputs.cache
+C:\dev\sepe_net\ClassApp\ClassApp\obj\Debug\netcoreapp3.1\ClassApp.AssemblyInfo.vb
+C:\dev\sepe_net\ClassApp\ClassApp\obj\Debug\netcoreapp3.1\ClassApp.vbproj.CoreCompileInputs.cache
+C:\dev\sepe_net\ClassApp\ClassApp\obj\Debug\netcoreapp3.1\ClassApp.dll
+C:\dev\sepe_net\ClassApp\ClassApp\obj\Debug\netcoreapp3.1\ClassApp.pdb
+C:\dev\sepe_net\ClassApp\ClassApp\obj\Debug\netcoreapp3.1\ClassApp.genruntimeconfig.cache

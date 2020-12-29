@@ -1,0 +1,13 @@
+C:\dev\sepe_net\04cadenacaracteres\04cadenacaracteres\obj\Debug\netcoreapp3.1\04cadenacaracteres.vbprojAssemblyReference.cache
+C:\dev\sepe_net\04cadenacaracteres\04cadenacaracteres\obj\Debug\netcoreapp3.1\04cadenacaracteres.AssemblyInfoInputs.cache
+C:\dev\sepe_net\04cadenacaracteres\04cadenacaracteres\obj\Debug\netcoreapp3.1\04cadenacaracteres.AssemblyInfo.vb
+C:\dev\sepe_net\04cadenacaracteres\04cadenacaracteres\obj\Debug\netcoreapp3.1\04cadenacaracteres.vbproj.CoreCompileInputs.cache
+C:\dev\sepe_net\04cadenacaracteres\04cadenacaracteres\bin\Debug\netcoreapp3.1\04cadenacaracteres.exe
+C:\dev\sepe_net\04cadenacaracteres\04cadenacaracteres\bin\Debug\netcoreapp3.1\04cadenacaracteres.deps.json
+C:\dev\sepe_net\04cadenacaracteres\04cadenacaracteres\bin\Debug\netcoreapp3.1\04cadenacaracteres.runtimeconfig.json
+C:\dev\sepe_net\04cadenacaracteres\04cadenacaracteres\bin\Debug\netcoreapp3.1\04cadenacaracteres.runtimeconfig.dev.json
+C:\dev\sepe_net\04cadenacaracteres\04cadenacaracteres\bin\Debug\netcoreapp3.1\04cadenacaracteres.dll
+C:\dev\sepe_net\04cadenacaracteres\04cadenacaracteres\bin\Debug\netcoreapp3.1\04cadenacaracteres.pdb
+C:\dev\sepe_net\04cadenacaracteres\04cadenacaracteres\obj\Debug\netcoreapp3.1\04cadenacaracteres.dll
+C:\dev\sepe_net\04cadenacaracteres\04cadenacaracteres\obj\Debug\netcoreapp3.1\04cadenacaracteres.pdb
+C:\dev\sepe_net\04cadenacaracteres\04cadenacaracteres\obj\Debug\netcoreapp3.1\04cadenacaracteres.genruntimeconfig.cache
