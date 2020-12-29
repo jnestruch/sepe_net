@@ -67,4 +67,8 @@ Una vez verificada la correcta introducción de los datos, se pasa a ralizar los
 End Module
 ~~~
 
-El código del programa se puede descargar desde [aquí](https://github.com/jnestruch/sepe_net/blob/master/CasoPractico01/casopractico01/Program.vb).
+<br>Un ejemplo de ejecución del programa, incluyendo una introducción incorrecta del precio, sería:
+
+<br>![example outputimage](captura_output.png "n exemplary image")
+
+<br>El código del programa se puede descargar desde [aquí](https://github.com/jnestruch/sepe_net/blob/master/CasoPractico01/casopractico01/Program.vb).
