@@ -1,0 +1,13 @@
+C:\dev\sepe_net\CasoPractico02\casopractico02\casopractico02\bin\Debug\netcoreapp3.1\casopractico02.exe
+C:\dev\sepe_net\CasoPractico02\casopractico02\casopractico02\bin\Debug\netcoreapp3.1\casopractico02.deps.json
+C:\dev\sepe_net\CasoPractico02\casopractico02\casopractico02\bin\Debug\netcoreapp3.1\casopractico02.runtimeconfig.json
+C:\dev\sepe_net\CasoPractico02\casopractico02\casopractico02\bin\Debug\netcoreapp3.1\casopractico02.runtimeconfig.dev.json
+C:\dev\sepe_net\CasoPractico02\casopractico02\casopractico02\bin\Debug\netcoreapp3.1\casopractico02.dll
+C:\dev\sepe_net\CasoPractico02\casopractico02\casopractico02\bin\Debug\netcoreapp3.1\casopractico02.pdb
+C:\dev\sepe_net\CasoPractico02\casopractico02\casopractico02\obj\Debug\netcoreapp3.1\casopractico02.vbprojAssemblyReference.cache
+C:\dev\sepe_net\CasoPractico02\casopractico02\casopractico02\obj\Debug\netcoreapp3.1\casopractico02.AssemblyInfoInputs.cache
+C:\dev\sepe_net\CasoPractico02\casopractico02\casopractico02\obj\Debug\netcoreapp3.1\casopractico02.AssemblyInfo.vb
+C:\dev\sepe_net\CasoPractico02\casopractico02\casopractico02\obj\Debug\netcoreapp3.1\casopractico02.vbproj.CoreCompileInputs.cache
+C:\dev\sepe_net\CasoPractico02\casopractico02\casopractico02\obj\Debug\netcoreapp3.1\casopractico02.dll
+C:\dev\sepe_net\CasoPractico02\casopractico02\casopractico02\obj\Debug\netcoreapp3.1\casopractico02.pdb
+C:\dev\sepe_net\CasoPractico02\casopractico02\casopractico02\obj\Debug\netcoreapp3.1\casopractico02.genruntimeconfig.cache
