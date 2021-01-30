@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dev\\sepe_net\\CasoPractico01\\casopractico01\\casopractico01.vbproj",
-      "projectName": "casopractico01",
-      "projectPath": "C:\\dev\\sepe_net\\CasoPractico01\\casopractico01\\casopractico01.vbproj",
+      "projectUniqueName": "C:\\dev\\sepe_net\\CasoPractico02\\casopractivo02\\casopractivo02.vbproj",
+      "projectName": "casopractivo02",
+      "projectPath": "C:\\dev\\sepe_net\\CasoPractico02\\casopractivo02\\casopractivo02.vbproj",
       "packagesPath": "C:\\Users\\jestruch\\.nuget\\packages\\",
-      "outputPath": "C:\\dev\\sepe_net\\CasoPractico01\\casopractico01\\obj\\",
+      "outputPath": "C:\\dev\\sepe_net\\CasoPractico02\\casopractivo02\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

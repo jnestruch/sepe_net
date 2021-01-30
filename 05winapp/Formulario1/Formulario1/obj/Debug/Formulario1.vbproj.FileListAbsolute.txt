@@ -1,0 +1,12 @@
+C:\dev\sepe_net\05winapp\Formulario1\Formulario1\bin\Debug\Formulario1.exe.config
+C:\dev\sepe_net\05winapp\Formulario1\Formulario1\bin\Debug\Formulario1.exe
+C:\dev\sepe_net\05winapp\Formulario1\Formulario1\bin\Debug\Formulario1.pdb
+C:\dev\sepe_net\05winapp\Formulario1\Formulario1\bin\Debug\Formulario1.xml
+C:\dev\sepe_net\05winapp\Formulario1\Formulario1\obj\Debug\Formulario1.vbprojAssemblyReference.cache
+C:\dev\sepe_net\05winapp\Formulario1\Formulario1\obj\Debug\Formulario1.Form1.resources
+C:\dev\sepe_net\05winapp\Formulario1\Formulario1\obj\Debug\Formulario1.Resources.resources
+C:\dev\sepe_net\05winapp\Formulario1\Formulario1\obj\Debug\Formulario1.vbproj.GenerateResource.cache
+C:\dev\sepe_net\05winapp\Formulario1\Formulario1\obj\Debug\Formulario1.vbproj.CoreCompileInputs.cache
+C:\dev\sepe_net\05winapp\Formulario1\Formulario1\obj\Debug\Formulario1.exe
+C:\dev\sepe_net\05winapp\Formulario1\Formulario1\obj\Debug\Formulario1.xml
+C:\dev\sepe_net\05winapp\Formulario1\Formulario1\obj\Debug\Formulario1.pdb
