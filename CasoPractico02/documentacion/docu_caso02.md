@@ -54,4 +54,4 @@ End Module
 
 <br>![example outputimage](captura_output.png "n exemplary image")
 
-<br>El código del programa se puede descargar desde [aquí](https://github.com/jnestruch/sepe_net/blob/master/CasoPractico02/casopractico02/casopractico02/Program.vb).
+<br>El código del programa se puede descargar desde [aquí](https://github.com/jnestruch/sepe_net/blob/master/CasoPractico02/casopractico02/Program.vb).
