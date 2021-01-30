@@ -1,65 +1,48 @@
-## Caso Práctico 1
+## Caso Práctico 2
 ***
 
 A continuación se muestra el código utilizado para esta práctica.
 
 ~~~vbnet
-Module Program
-    ' Función para comprobar el tipo de dato entrado por el usurio
-    ' Debe ser un valor numérico
-    Function IsValidInput(sInput As Object) As Boolean
-        Return IsNumeric(sInput)
-    End Function
-~~~
-
-Seguimos con el módulo principal donde está el cuerpo del programa.
-
-~~~vbnet
     Sub Main(args As String())
-        'Variable declaration
-        Dim nPercent As Decimal
-        Dim nPrice
 
-        ' Write text on console asking for user input
-        Console.WriteLine("Caso práctico 1" + vbCrLf)
+        'Variable declaration
+        Dim dNace As Date
+        Dim sName As String
 ~~~
 
-Se define un bucle para la introducción de los datos hasta que el tipo sea el correcto.
+Se define un bucle para la introducción de los datos hasta que el tipo sea el correcto. Para controlar el formato de la fecha de nacimiento, se añade un control de excepciones.
 
 ~~~vbnet
         ' Loop until correct user input
         Do While True
-            Console.Write("Introducir precio del producto: ")
+            ' User input
+            Console.Write("Cómo te llamas ?: ")
+            sName = Console.ReadLine()
 
-            ' Almacena valor introducido por pantalla
-            nPrice = Console.ReadLine()
+            Console.Write("Fecha de nacimiento (dd-mm-yyyy) ?: ")
+            Try
+                dNace = Console.ReadLine()
+            Catch e As Exception
+                ' Entrada incorrecta del usuario. Pide nueva entrada
+                Console.WriteLine("Formato de fecha incorrecto." + vbCrLf)
+                Continue Do
+            End Try
 
-            ' Comprueba la validez del user Input
-            If IsValidInput(nPrice) Then
-                ' Salida del bucle cuando se verifica que el formato es el esperado
-                Exit Do
-            End If
-
-            ' Entrada incorrecta del usuario. Pide nueva entrada
-            Console.WriteLine("El precio del producto debe ser un valor númerico." +  vbCrLf)
+            ' Salida del bucle al tener el formato correcto
+            Exit Do
         Loop
 ~~~
 
-Una vez verificada la correcta introducción de los datos, se pasa a ralizar los cálculo correspondientes y dar salida por consola a los resultados para dar por finalizado el programa.
+Una vez verificada la correcta introducción de los datos, se pasa a ralizar los cálculos correspondientes y dar salida por consola a los resultados para dar por finalizado el programa.
+
+Para este caso práctico, se ha realizado el cálculo de la edad a partir únicamente del año del nacimiento, obtiendo el cálculo de la edad al finalizar el año.
 
 ~~~vbnet
-        ' Lógica de cálculo del porcentaje a apicar
-        If nPrice < 100 Then
-            nPercent = nPrice * 0.1
-        Else
-            nPercent = nPrice * 0.2
-        End If
-
-        ' Mostrar el % del precio a aplicar
-        Console.WriteLine("Valor del porcentaje a aplicar: {0}", nPercent)
-
-        ' Mostrar el valor final
-        Console.WriteLine(vbCrLf & "Precio total: {0}", nPrice + nPercent)
+        ' Salida formateada
+        ' Se omiten cálculos complejos para el cálculo de la edad correcta. Salida aproximada.
+        Console.WriteLine()
+        Console.WriteLine("Hola {0}, si naciste {1}, tu edad es de {2} años.", sName, dNace.ToString("D"), Today.Year - dNace.Year)
 
         ' Wait on Console to see result
         Console.ReadKey()
@@ -67,8 +50,8 @@ Una vez verificada la correcta introducción de los datos, se pasa a ralizar los
 End Module
 ~~~
 
-<br>Un ejemplo de ejecución del programa, incluyendo una introducción incorrecta del precio, sería:
+<br>Un ejemplo de ejecución del programa, incluyendo una introducción incorrecta de la fecha de nacimiento, sería:
 
 <br>![example outputimage](captura_output.png "n exemplary image")
 
-<br>El código del programa se puede descargar desde [aquí](https://github.com/jnestruch/sepe_net/blob/master/CasoPractico01/casopractico01/Program.vb).
+<br>El código del programa se puede descargar desde [aquí](https://github.com/jnestruch/sepe_net/blob/master/CasoPractico02/casopractico02/Program.vb).

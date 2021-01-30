@@ -13,12 +13,12 @@ Option Explicit On
 
 Imports System
 Imports System.Reflection
-<Assembly: System.Reflection.AssemblyCompanyAttribute("casopractivo02"),  _
+<Assembly: System.Reflection.AssemblyCompanyAttribute("casopractico02"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
  Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0"),  _
- Assembly: System.Reflection.AssemblyProductAttribute("casopractivo02"),  _
- Assembly: System.Reflection.AssemblyTitleAttribute("casopractivo02"),  _
+ Assembly: System.Reflection.AssemblyProductAttribute("casopractico02"),  _
+ Assembly: System.Reflection.AssemblyTitleAttribute("casopractico02"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")> 
 
 'Generado por la clase WriteCodeFragment de MSBuild.
