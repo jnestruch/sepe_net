@@ -1,0 +1,12 @@
+C:\dev\sepe_net\CasoPractico03\casopractico3\casopractico3\bin\Debug\casopractico3.exe.config
+C:\dev\sepe_net\CasoPractico03\casopractico3\casopractico3\bin\Debug\casopractico3.exe
+C:\dev\sepe_net\CasoPractico03\casopractico3\casopractico3\bin\Debug\casopractico3.pdb
+C:\dev\sepe_net\CasoPractico03\casopractico3\casopractico3\bin\Debug\casopractico3.xml
+C:\dev\sepe_net\CasoPractico03\casopractico3\casopractico3\obj\Debug\casopractico3.vbprojAssemblyReference.cache
+C:\dev\sepe_net\CasoPractico03\casopractico3\casopractico3\obj\Debug\casopractico3.Form1.resources
+C:\dev\sepe_net\CasoPractico03\casopractico3\casopractico3\obj\Debug\casopractico3.Resources.resources
+C:\dev\sepe_net\CasoPractico03\casopractico3\casopractico3\obj\Debug\casopractico3.vbproj.GenerateResource.cache
+C:\dev\sepe_net\CasoPractico03\casopractico3\casopractico3\obj\Debug\casopractico3.vbproj.CoreCompileInputs.cache
+C:\dev\sepe_net\CasoPractico03\casopractico3\casopractico3\obj\Debug\casopractico3.exe
+C:\dev\sepe_net\CasoPractico03\casopractico3\casopractico3\obj\Debug\casopractico3.xml
+C:\dev\sepe_net\CasoPractico03\casopractico3\casopractico3\obj\Debug\casopractico3.pdb
