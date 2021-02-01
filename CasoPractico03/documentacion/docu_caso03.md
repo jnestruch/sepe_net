@@ -3,7 +3,10 @@
 
 A continuación se muestra el código utilizado para esta práctica junto con el formulario final.
 
+La propiedad de Fuente del objeto TextBox es inmutable, por lo que para su modificación, es necesario crear un nuevo objeto ***Font*** con las nuevas propiedades del objeto. Esto aplica para todos los cambios previstos en este caso práctico excepto para el color, donde es suficiente con asignar el nuevo color a partir del objeto de sistema ***Color***.
+
 Captura del formulario resultante:
+
 <br>![example outputimage](captura_output.png "n exemplary image")
 
 <br><br>
@@ -19,13 +22,21 @@ Captura del formulario resultante:
 
 <br><br>
 
+--------
+
+<br>
+
+ ### Controles para texto a formatear
+
+<br><br>
+
  | | Nombre | Valor |
  --- | --- | ---
 **Objeto:** | Label | 
 **Propiedades:** | Name | Label1
 | | Text | Escribe tu nombre
 | | Font | Microsoft Sans Serif; 9pt
-----
+
 <br><br>
  | | Nombre | Valor |
  --- | --- | ---
@@ -34,7 +45,16 @@ Captura del formulario resultante:
 | | Text | 
 | | Font | Microsoft Sans Serif; 9pt
 | | ForeColor | Black
-----
+
+<br><br>
+
+--------
+
+<br>
+
+ ### Controles de etiquetas
+
+
 <br><br>
  | | Nombre | Valor |
  --- | --- | ---
@@ -42,7 +62,7 @@ Captura del formulario resultante:
 **Propiedades:** | Name | Label2
 | | Text | Tipo de letra
 | | Font | Microsoft Sans Serif; 9pt
-----
+
 <br><br>
  | | Nombre | Valor |
  --- | --- | ---
@@ -50,7 +70,7 @@ Captura del formulario resultante:
 **Propiedades:** | Name | Label3
 | | Text | Formato
 | | Font | Microsoft Sans Serif; 9pt
-----
+
 <br><br>
  | | Nombre | Valor |
  --- | --- | ---
@@ -58,7 +78,7 @@ Captura del formulario resultante:
 **Propiedades:** | Name | Label4
 | | Text | Color
 | | Font | Microsoft Sans Serif; 9pt
-----
+
 <br><br>
  | | Nombre | Valor |
  --- | --- | ---
@@ -66,9 +86,16 @@ Captura del formulario resultante:
 **Propiedades:** | Name | Label5
 | | Text | Tamaño
 | | Font | Microsoft Sans Serif; 9pt
-----
+
 <br><br>
-----
+
+---------
+<br>
+
+ ### Controles de tipo de fuente
+ 
+ <br><br>
+
  | | Nombre | Valor |
  --- | --- | ---
 **Objeto:** | RadioButton | 
@@ -105,6 +132,13 @@ Captura del formulario resultante:
     TextBox1.Font = New Font(rbVerdana.Text, TextBox1.Font.Size, TextBox1.Font.Style)
 ~~~
 <br><br>
+
+---------
+<br>
+
+ ### Controles de Formato
+
+ <br><br>
 
  | | Nombre | Valor |
  --- | --- | ---
@@ -154,6 +188,15 @@ Captura del formulario resultante:
 ~~~
 <br><br>
 
+---------
+<br>
+
+ ### Controles de color
+
+ Los colores en los controles **Label** se han conseguido asignando unos ficheros de imagen de colores para conseguir el efecto deseado.
+
+<br>
+
  | | Nombre | Valor |
  --- | --- | ---
 **Objeto:** | Label | 
@@ -190,6 +233,13 @@ Captura del formulario resultante:
 ~~~
 <br><br>
 
+---------
+<br>
+
+ ### Controles de tamaño
+
+<br><br>
+
  | | Nombre | Valor |
  --- | --- | ---
 **Objeto:** | ComboBox | 
@@ -202,6 +252,13 @@ Captura del formulario resultante:
 ~~~
 <br><br>
 
+---------
+<br>
+
+ ### Controles de salida
+
+<br><br>
+
  | | Nombre | Valor |
  --- | --- | ---
 **Objeto:** | Button | 
@@ -212,4 +269,4 @@ Captura del formulario resultante:
 ~~~vbnet
     Me.Close()
 ~~~
-<br>El código del programa se puede descargar desde [aquí](https://github.com/jnestruch/sepe_net/blob/master/CasoPractico02/casopractico02/Program.vb).
+<br>El código del programa se puede descargar desde [aquí](https://github.com/jnestruch/sepe_net/tree/master/CasoPractico03/casopractico3/).
