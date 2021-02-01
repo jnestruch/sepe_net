@@ -29,17 +29,17 @@ Partial Class Form1
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton3 = New System.Windows.Forms.RadioButton()
-        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox2 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox3 = New System.Windows.Forms.CheckBox()
+        Me.rbMistral = New System.Windows.Forms.RadioButton()
+        Me.rbTahoma = New System.Windows.Forms.RadioButton()
+        Me.rbVerdana = New System.Windows.Forms.RadioButton()
+        Me.chkItalic = New System.Windows.Forms.CheckBox()
+        Me.chkBold = New System.Windows.Forms.CheckBox()
+        Me.chkStrike = New System.Windows.Forms.CheckBox()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.lblRed = New System.Windows.Forms.Label()
+        Me.lblGreen = New System.Windows.Forms.Label()
+        Me.lblBlue = New System.Windows.Forms.Label()
+        Me.cmbSize = New System.Windows.Forms.ComboBox()
         Me.SuspendLayout()
         '
         'Label1
@@ -101,68 +101,68 @@ Partial Class Form1
         Me.Label5.TabIndex = 5
         Me.Label5.Text = "Tamaño"
         '
-        'RadioButton1
+        'rbMistral
         '
-        Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Location = New System.Drawing.Point(65, 210)
-        Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(62, 19)
-        Me.RadioButton1.TabIndex = 6
-        Me.RadioButton1.TabStop = True
-        Me.RadioButton1.Text = "Mistral"
-        Me.RadioButton1.UseVisualStyleBackColor = True
+        Me.rbMistral.AutoSize = True
+        Me.rbMistral.Location = New System.Drawing.Point(65, 210)
+        Me.rbMistral.Name = "rbMistral"
+        Me.rbMistral.Size = New System.Drawing.Size(62, 19)
+        Me.rbMistral.TabIndex = 6
+        Me.rbMistral.TabStop = True
+        Me.rbMistral.Text = "Mistral"
+        Me.rbMistral.UseVisualStyleBackColor = True
         '
-        'RadioButton2
+        'rbTahoma
         '
-        Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Location = New System.Drawing.Point(65, 260)
-        Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(71, 19)
-        Me.RadioButton2.TabIndex = 7
-        Me.RadioButton2.TabStop = True
-        Me.RadioButton2.Text = "Tahoma"
-        Me.RadioButton2.UseVisualStyleBackColor = True
+        Me.rbTahoma.AutoSize = True
+        Me.rbTahoma.Location = New System.Drawing.Point(65, 260)
+        Me.rbTahoma.Name = "rbTahoma"
+        Me.rbTahoma.Size = New System.Drawing.Size(71, 19)
+        Me.rbTahoma.TabIndex = 7
+        Me.rbTahoma.TabStop = True
+        Me.rbTahoma.Text = "Tahoma"
+        Me.rbTahoma.UseVisualStyleBackColor = True
         '
-        'RadioButton3
+        'rbVerdana
         '
-        Me.RadioButton3.AutoSize = True
-        Me.RadioButton3.Location = New System.Drawing.Point(65, 313)
-        Me.RadioButton3.Name = "RadioButton3"
-        Me.RadioButton3.Size = New System.Drawing.Size(71, 19)
-        Me.RadioButton3.TabIndex = 8
-        Me.RadioButton3.TabStop = True
-        Me.RadioButton3.Text = "Verdana"
-        Me.RadioButton3.UseVisualStyleBackColor = True
+        Me.rbVerdana.AutoSize = True
+        Me.rbVerdana.Location = New System.Drawing.Point(65, 313)
+        Me.rbVerdana.Name = "rbVerdana"
+        Me.rbVerdana.Size = New System.Drawing.Size(71, 19)
+        Me.rbVerdana.TabIndex = 8
+        Me.rbVerdana.TabStop = True
+        Me.rbVerdana.Text = "Verdana"
+        Me.rbVerdana.UseVisualStyleBackColor = True
         '
-        'CheckBox1
+        'chkItalic
         '
-        Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(213, 210)
-        Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(66, 19)
-        Me.CheckBox1.TabIndex = 9
-        Me.CheckBox1.Text = "Cursiva"
-        Me.CheckBox1.UseVisualStyleBackColor = True
+        Me.chkItalic.AutoSize = True
+        Me.chkItalic.Location = New System.Drawing.Point(213, 210)
+        Me.chkItalic.Name = "chkItalic"
+        Me.chkItalic.Size = New System.Drawing.Size(66, 19)
+        Me.chkItalic.TabIndex = 9
+        Me.chkItalic.Text = "Cursiva"
+        Me.chkItalic.UseVisualStyleBackColor = True
         '
-        'CheckBox2
+        'chkBold
         '
-        Me.CheckBox2.AutoSize = True
-        Me.CheckBox2.Location = New System.Drawing.Point(213, 260)
-        Me.CheckBox2.Name = "CheckBox2"
-        Me.CheckBox2.Size = New System.Drawing.Size(66, 19)
-        Me.CheckBox2.TabIndex = 10
-        Me.CheckBox2.Text = "Negrita"
-        Me.CheckBox2.UseVisualStyleBackColor = True
+        Me.chkBold.AutoSize = True
+        Me.chkBold.Location = New System.Drawing.Point(213, 260)
+        Me.chkBold.Name = "chkBold"
+        Me.chkBold.Size = New System.Drawing.Size(66, 19)
+        Me.chkBold.TabIndex = 10
+        Me.chkBold.Text = "Negrita"
+        Me.chkBold.UseVisualStyleBackColor = True
         '
-        'CheckBox3
+        'chkStrike
         '
-        Me.CheckBox3.AutoSize = True
-        Me.CheckBox3.Location = New System.Drawing.Point(213, 314)
-        Me.CheckBox3.Name = "CheckBox3"
-        Me.CheckBox3.Size = New System.Drawing.Size(85, 19)
-        Me.CheckBox3.TabIndex = 11
-        Me.CheckBox3.Text = "Subrayado"
-        Me.CheckBox3.UseVisualStyleBackColor = True
+        Me.chkStrike.AutoSize = True
+        Me.chkStrike.Location = New System.Drawing.Point(213, 314)
+        Me.chkStrike.Name = "chkStrike"
+        Me.chkStrike.Size = New System.Drawing.Size(85, 19)
+        Me.chkStrike.TabIndex = 11
+        Me.chkStrike.Text = "Subrayado"
+        Me.chkStrike.UseVisualStyleBackColor = True
         '
         'Button1
         '
@@ -173,62 +173,62 @@ Partial Class Form1
         Me.Button1.Text = "Salir"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'Label6
+        'lblRed
         '
-        Me.Label6.AutoSize = True
-        Me.Label6.Image = CType(resources.GetObject("Label6.Image"), System.Drawing.Image)
-        Me.Label6.Location = New System.Drawing.Point(345, 210)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(67, 15)
-        Me.Label6.TabIndex = 13
-        Me.Label6.Text = "                    "
+        Me.lblRed.AutoSize = True
+        Me.lblRed.Image = CType(resources.GetObject("lblRed.Image"), System.Drawing.Image)
+        Me.lblRed.Location = New System.Drawing.Point(345, 210)
+        Me.lblRed.Name = "lblRed"
+        Me.lblRed.Size = New System.Drawing.Size(67, 15)
+        Me.lblRed.TabIndex = 13
+        Me.lblRed.Text = "                    "
         '
-        'Label7
+        'lblGreen
         '
-        Me.Label7.AutoSize = True
-        Me.Label7.Image = CType(resources.GetObject("Label7.Image"), System.Drawing.Image)
-        Me.Label7.Location = New System.Drawing.Point(345, 260)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(67, 15)
-        Me.Label7.TabIndex = 14
-        Me.Label7.Text = "                    "
+        Me.lblGreen.AutoSize = True
+        Me.lblGreen.Image = CType(resources.GetObject("lblGreen.Image"), System.Drawing.Image)
+        Me.lblGreen.Location = New System.Drawing.Point(345, 260)
+        Me.lblGreen.Name = "lblGreen"
+        Me.lblGreen.Size = New System.Drawing.Size(67, 15)
+        Me.lblGreen.TabIndex = 14
+        Me.lblGreen.Text = "                    "
         '
-        'Label8
+        'lblBlue
         '
-        Me.Label8.AutoSize = True
-        Me.Label8.Image = CType(resources.GetObject("Label8.Image"), System.Drawing.Image)
-        Me.Label8.Location = New System.Drawing.Point(345, 313)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(67, 15)
-        Me.Label8.TabIndex = 15
-        Me.Label8.Text = "                    "
+        Me.lblBlue.AutoSize = True
+        Me.lblBlue.Image = CType(resources.GetObject("lblBlue.Image"), System.Drawing.Image)
+        Me.lblBlue.Location = New System.Drawing.Point(345, 313)
+        Me.lblBlue.Name = "lblBlue"
+        Me.lblBlue.Size = New System.Drawing.Size(67, 15)
+        Me.lblBlue.TabIndex = 15
+        Me.lblBlue.Text = "                    "
         '
-        'ComboBox1
+        'cmbSize
         '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"8", "9", "10", "11", "12", "13", "15", "17"})
-        Me.ComboBox1.Location = New System.Drawing.Point(483, 249)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(140, 23)
-        Me.ComboBox1.TabIndex = 16
-        Me.ComboBox1.Text = "9"
+        Me.cmbSize.FormattingEnabled = True
+        Me.cmbSize.Items.AddRange(New Object() {"8", "9", "10", "11", "12", "13", "15", "17"})
+        Me.cmbSize.Location = New System.Drawing.Point(483, 249)
+        Me.cmbSize.Name = "cmbSize"
+        Me.cmbSize.Size = New System.Drawing.Size(140, 23)
+        Me.cmbSize.TabIndex = 16
+        Me.cmbSize.Text = "9"
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(700, 422)
-        Me.Controls.Add(Me.ComboBox1)
-        Me.Controls.Add(Me.Label8)
-        Me.Controls.Add(Me.Label7)
-        Me.Controls.Add(Me.Label6)
+        Me.Controls.Add(Me.cmbSize)
+        Me.Controls.Add(Me.lblBlue)
+        Me.Controls.Add(Me.lblGreen)
+        Me.Controls.Add(Me.lblRed)
         Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.CheckBox3)
-        Me.Controls.Add(Me.CheckBox2)
-        Me.Controls.Add(Me.CheckBox1)
-        Me.Controls.Add(Me.RadioButton3)
-        Me.Controls.Add(Me.RadioButton2)
-        Me.Controls.Add(Me.RadioButton1)
+        Me.Controls.Add(Me.chkStrike)
+        Me.Controls.Add(Me.chkBold)
+        Me.Controls.Add(Me.chkItalic)
+        Me.Controls.Add(Me.rbVerdana)
+        Me.Controls.Add(Me.rbTahoma)
+        Me.Controls.Add(Me.rbMistral)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
@@ -250,15 +250,15 @@ Partial Class Form1
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
-    Friend WithEvents RadioButton1 As RadioButton
-    Friend WithEvents RadioButton2 As RadioButton
-    Friend WithEvents RadioButton3 As RadioButton
-    Friend WithEvents CheckBox1 As CheckBox
-    Friend WithEvents CheckBox2 As CheckBox
-    Friend WithEvents CheckBox3 As CheckBox
+    Friend WithEvents rbMistral As RadioButton
+    Friend WithEvents rbTahoma As RadioButton
+    Friend WithEvents rbVerdana As RadioButton
+    Friend WithEvents chkItalic As CheckBox
+    Friend WithEvents chkBold As CheckBox
+    Friend WithEvents chkStrike As CheckBox
     Friend WithEvents Button1 As Button
-    Friend WithEvents Label6 As Label
-    Friend WithEvents Label7 As Label
-    Friend WithEvents Label8 As Label
-    Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents lblRed As Label
+    Friend WithEvents lblGreen As Label
+    Friend WithEvents lblBlue As Label
+    Friend WithEvents cmbSize As ComboBox
 End Class

@@ -72,12 +72,12 @@ Captura del formulario resultante:
  | | Nombre | Valor |
  --- | --- | ---
 **Objeto:** | RadioButton | 
-**Propiedades:** | Name | RadioButton1
+**Propiedades:** | Name | rbMistral
 | | Text | Mistral
 **Evento:** | CheckedChanged | Radiobutton1_CheckedChanged
 **Codigo:** |
 ~~~vbnet
-    TextBox1.Font = New Font(RadioButton1.Text, TextBox1.Font.Size, TextBox1.Font.Style)
+    TextBox1.Font = New Font(rbMistral.Text, TextBox1.Font.Size, TextBox1.Font.Style)
 ~~~
 ---
 <br><br>
@@ -85,27 +85,122 @@ Captura del formulario resultante:
  | | Nombre | Valor |
  --- | --- | ---
 **Objeto:** | RadioButton | 
-**Propiedades:** | Name | RadioButton2
+**Propiedades:** | Name | rbTahoma
 | | Text | Tahoma
 **Evento:** | CheckedChanged | Radiobutton2_CheckedChanged
 **Codigo:** |
 ~~~vbnet
-    TextBox1.Font = New Font(RadioButton2.Text, TextBox1.Font.Size, TextBox1.Font.Style)
+    TextBox1.Font = New Font(rbTahoma.Text, TextBox1.Font.Size, TextBox1.Font.Style)
 ~~~
 <br><br>
-----
+
  | | Nombre | Valor |
  --- | --- | ---
 **Objeto:** | RadioButton | 
-**Propiedades:** | Name | RadioButton3
+**Propiedades:** | Name | rbVerdana
 | | Text | Verdana
 **Evento:** | CheckedChanged | Radiobutton3_CheckedChanged
 **Codigo:** |
 ~~~vbnet
-    TextBox1.Font = New Font(RadioButton3.Text, TextBox1.Font.Size, TextBox1.Font.Style)
+    TextBox1.Font = New Font(rbVerdana.Text, TextBox1.Font.Size, TextBox1.Font.Style)
 ~~~
 <br><br>
-----
+
+ | | Nombre | Valor |
+ --- | --- | ---
+**Objeto:** | CheckBox | 
+**Propiedades:** | Name | chkItalic
+| | Text | Verdana
+**Evento:** | CheckedChanged | CheckBox1_CheckedChanged
+**Codigo:** |
+~~~vbnet
+        If chkItalic.Checked Then
+            TextBox1.Font = New Font(TextBox1.Font.Name, TextBox1.Font.Size, TextBox1.Font.Style Or FontStyle.Italic)
+        Else
+            TextBox1.Font = New Font(TextBox1.Font.Name, TextBox1.Font.Size, TextBox1.Font.Style And Not FontStyle.Italic)
+        End If
+~~~
+<br><br>
+
+ | | Nombre | Valor |
+ --- | --- | ---
+**Objeto:** | CheckBox | 
+**Propiedades:** | Name | chkBold
+| | Text | Verdana
+**Evento:** | CheckedChanged | CheckBox2_CheckedChanged
+**Codigo:** |
+~~~vbnet
+        If chkVerdana.Checked Then
+            TextBox1.Font = New Font(TextBox1.Font.Name, TextBox1.Font.Size, TextBox1.Font.Style Or FontStyle.Bold)
+        Else
+            TextBox1.Font = New Font(TextBox1.Font.Name, TextBox1.Font.Size, TextBox1.Font.Style And Not FontStyle.Bold)
+        End If
+~~~
+<br><br>
+
+ | | Nombre | Valor |
+ --- | --- | ---
+**Objeto:** | CheckBox | 
+**Propiedades:** | Name | chkStrike
+| | Text | Verdana
+**Evento:** | CheckedChanged | CheckBox3_CheckedChanged
+**Codigo:** |
+~~~vbnet
+        If chkVerdana.Checked Then
+            TextBox1.Font = New Font(TextBox1.Font.Name, TextBox1.Font.Size, TextBox1.Font.Style Or FontStyle.Strikeout)
+        Else
+            TextBox1.Font = New Font(TextBox1.Font.Name, TextBox1.Font.Size, TextBox1.Font.Style And Not FontStyle.Strikeout)
+        End If
+~~~
+<br><br>
+
+ | | Nombre | Valor |
+ --- | --- | ---
+**Objeto:** | Label | 
+**Propiedades:** | Name | lblRed
+| | Image | System.Drawing.Bitmap
+**Evento:** | Click | Label6_CheckedChanged
+**Codigo:** |
+~~~vbnet
+        TextBox1.ForeColor = Color.Red
+~~~
+<br><br>
+
+ | | Nombre | Valor |
+ --- | --- | ---
+**Objeto:** | Label | 
+**Propiedades:** | Name | lblGreen
+| | Image | System.Drawing.Bitmap
+**Evento:** | Click | Label7_CheckedChanged
+**Codigo:** |
+~~~vbnet
+        TextBox1.ForeColor = Color.Green
+~~~
+<br><br>
+
+ | | Nombre | Valor |
+ --- | --- | ---
+**Objeto:** | Label | 
+**Propiedades:** | Name | lblBlue
+| | Image | System.Drawing.Bitmap
+**Evento:** | Click | Label8_CheckedChanged
+**Codigo:** |
+~~~vbnet
+        TextBox1.ForeColor = Color.Blue
+~~~
+<br><br>
+
+ | | Nombre | Valor |
+ --- | --- | ---
+**Objeto:** | ComboBox | 
+**Propiedades:** | Name | cmbSize
+| | Image | System.Drawing.Bitmap
+**Evento:** | SelectedIndexChanged | ComboBox1_SelectedIndexChanged
+**Codigo:** |
+~~~vbnet
+        TextBox1.Font = New Font(TextBox1.Font.Name, cmbSize.SelectedItem, TextBox1.Font.Style)
+~~~
+<br><br>
 
  | | Nombre | Valor |
  --- | --- | ---
