@@ -1,0 +1,12 @@
+C:\dev\sepe_net\06bbdd\WindowsApp2\WindowsApp2\bin\Debug\WindowsApp2.exe.config
+C:\dev\sepe_net\06bbdd\WindowsApp2\WindowsApp2\bin\Debug\WindowsApp2.exe
+C:\dev\sepe_net\06bbdd\WindowsApp2\WindowsApp2\bin\Debug\WindowsApp2.pdb
+C:\dev\sepe_net\06bbdd\WindowsApp2\WindowsApp2\bin\Debug\WindowsApp2.xml
+C:\dev\sepe_net\06bbdd\WindowsApp2\WindowsApp2\obj\Debug\WindowsApp2.vbprojAssemblyReference.cache
+C:\dev\sepe_net\06bbdd\WindowsApp2\WindowsApp2\obj\Debug\WindowsApp2.Form1.resources
+C:\dev\sepe_net\06bbdd\WindowsApp2\WindowsApp2\obj\Debug\WindowsApp2.Resources.resources
+C:\dev\sepe_net\06bbdd\WindowsApp2\WindowsApp2\obj\Debug\WindowsApp2.vbproj.GenerateResource.cache
+C:\dev\sepe_net\06bbdd\WindowsApp2\WindowsApp2\obj\Debug\WindowsApp2.vbproj.CoreCompileInputs.cache
+C:\dev\sepe_net\06bbdd\WindowsApp2\WindowsApp2\obj\Debug\WindowsApp2.exe
+C:\dev\sepe_net\06bbdd\WindowsApp2\WindowsApp2\obj\Debug\WindowsApp2.xml
+C:\dev\sepe_net\06bbdd\WindowsApp2\WindowsApp2\obj\Debug\WindowsApp2.pdb
